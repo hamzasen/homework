@@ -4,12 +4,13 @@
 #'
 #' @return a plot
 #' @export
-#' @import ggplot2 tidyr dplyr dygraphs prenoms
+#' @import ggplot2 tidyr dplyr dygraphs prenoms assertthat
 #' @examples
 #' \dontrun{
 #' mdrawnames(c("Hamza", "Alex", "Raphael"))
 #' }
 mdrawnames <- function(vector_name){
+  assert_that(is.character(vector_name))
   base <- prenoms::prenoms %>%
     filter(name %in% vector_name) %>%
     group_by(name, year) %>%
