@@ -19,3 +19,5 @@ Functions in the package:
 - Drawname: Plot the evolution of a name given in France
 - mDrawnames: Draw a plot comparing the evolutions of multiple names in France
 
+Email: hamza.sentissi@polytechnique.edu
+
