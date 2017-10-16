@@ -20,5 +20,4 @@ Functions in the package:
 - mDrawnames: Draw a plot comparing the evolutions of multiple names in France
 
 Email: hamza.sentissi@polytechnique.edu
-Essai1
 
