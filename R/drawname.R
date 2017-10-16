@@ -13,7 +13,7 @@
 #'
 draw_a_name <- function(the_name,the_sex){
   assert_that(is.character(the_name))
-  assert_that(the_sex %%in%% c("F","M"))
+  assert_that(the_sex %in% c("F","M"))
   base <- prenoms::prenoms %>%
     filter(name == the_name & sex == the_sex) %>%
     group_by(year) %>%
