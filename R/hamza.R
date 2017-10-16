@@ -7,4 +7,3 @@
 #' @docType package
 #' @author Hamza <hamza.sentissi@polytechnique.edu>
 NULL
-print("hello")
