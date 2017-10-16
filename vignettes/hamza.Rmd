@@ -1,0 +1,21 @@
+---
+title: "Hamza Sentissi"
+author: "Hamza Sentissi"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Hamza's toolkit
+
+Functions in the package:
+
+- Mycsvreader: allows to import all csv file of a designated folder
+- Savecsv: allows to export a dataset as a csv file
+- Readexcelmulti: allows to import all the sheets of an excel file
+- Drawname: Plot the evolution of a name given in France
+- mDrawnames: Draw a plot comparing the evolutions of multiple names in France
+
